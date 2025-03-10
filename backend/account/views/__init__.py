@@ -1,0 +1,4 @@
+from .registration_views import UserRegistrationView
+from .login_views import UserLoginView
+from .profile_views import UserProfileView
+from .forgetPassword_views import UserPasswordResetView, SendPasswordResetEmailView
